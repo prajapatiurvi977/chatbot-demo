@@ -1,0 +1,59 @@
+:root{
+    --primary-border-radius: 25px;
+    --primary-bg-color: #ffffff;   
+}
+@font-face {
+    font-family: DM Sans;
+    src: url(../font/DMSans-Regular.ttf);
+}
+.chatbox-container{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9000;
+    top: auto;
+    right: 10px;
+    bottom: 0px;
+    left: auto;
+    position: fixed;
+}
+.chatbot-frame{
+    height: 636px;
+    width: 424px;
+    display: none;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.close-button{
+    float: right;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
+    color: var(--primary-bg-color);
+    font-family: DM Sans;
+    font-style: normal;
+    text-align: center;
+    font-size: 19px;
+    cursor:pointer; 
+    display:none;
+}
+.chatbox-button{
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 13px;
+    min-height: 30px;
+    max-height: 30px;
+    border-top-left-radius: var(--primary-border-radius);
+    border-top-right-radius: var(--primary-border-radius);
+    background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
+    color: var(--primary-bg-color);
+    font-family: DM Sans;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 10px 15px;
+    cursor:pointer; 
+}
