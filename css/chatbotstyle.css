@@ -168,7 +168,7 @@ div.root > div.ellipse-container{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 34px;
     transform: scale(0);
-    animation: scaleOut 2s 1;
+    animation: scaleOut 0.7s 1;
     -webkit-animation-delay: 3s;
     -moz-animation-delay: 3s;
     animation-delay: 3s;
@@ -195,7 +195,7 @@ div.root > div.ellipse-container{
     margin-top: -18px;
     z-index: 4;
     transform: scale(0);
-    animation: scaleOut 2s 1;
+    animation: scaleOut 0.7s 1;
     -webkit-animation-delay: 3s;
     -moz-animation-delay: 3s;
     animation-delay: 3s;
